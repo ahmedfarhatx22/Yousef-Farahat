@@ -1,13 +1,16 @@
-# first list the packages you wish to download from PyPI
-teachbooks # depends on jupyter-book
-jupyterbook-patches
-sphinx-image-inverter
-download_link_replacer
+jupyter-book
+numpy
+scipy
+matplotlib
+pandas
+pylance
+ipympl
+plotly
+myst_nb
+dataclasses
+pybtex
+labels
+sphinxcontrib-bibtex
 sphinx-exercise
-sphinx-tudelft-theme
-teachbooks-sphinx-tippy
-sphinx-iframes
-sphinx-named-colors
-
-# Now list the packages you want to download directly from GitHub
-git+https://github.com/TeachBooks/Sphinx-Thebe
+jupyterquiz
+docutils==0.17.1     # This specific version of Docutils is required to avoid the empty brackets showing up in the "Bibliography"
